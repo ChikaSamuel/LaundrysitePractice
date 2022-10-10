@@ -1,0 +1,299 @@
+/*here contain style of home */
+body {
+    padding: 0 10px 0 10px;
+    margin: 0;
+    background: rgba(255, 251, 251, 0.849);
+   
+    
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 20px;
+
+}
+
+.nav ul {
+    float: right;
+
+}
+.logo {
+    float: left;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(237, 237, 243);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.nav ul li a:hover {
+    color: red;
+}
+.logo img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-weight: 200;
+    padding-left: 0px;
+}
+.logo img:hover {
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    font-weight: 200;
+    padding-left: 0px;
+}
+.header {
+    padding-top: 0;
+    margin-top: 0;
+    background-color: rgb(26, 18, 15);
+    height: 50px;
+    box-shadow: 0 2px 5px rgb(58, 48, 48);
+    
+}
+.backimage {
+    padding-top: 5%;
+    margin-top: 1%;
+    background-image: url(https://images.pexels.com/photos/4959878/pexels-photo-4959878.jpeg?auto=compress&cs=tinysrgb&w=600);
+    height: 630px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+}
+.btext a {
+    display: flex;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2.2rem;
+    margin-left: 0;
+    text-shadow: 2px 5px 2px rgb(90, 14, 14);  
+}
+.btext p {
+    color: white;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 0;
+}
+.backcontainer {
+    background: black;
+}
+.btext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    margin: 0 28%;
+    top: 270px;
+    
+}
+
+.box {
+    margin: auto;
+    width: 205px;
+    height: 230px;
+    background-color: rgb(73, 79, 82);
+    border-radius: 0 0 20px 0;
+}
+.sect1 {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    background-image: url(images/pic4.png);
+    background-repeat: repeat;
+    
+    
+    
+}
+.sect1 img {
+    width: 200px;
+    margin: 0 5px;
+    float: inline-start;
+    max-height: 200px;
+    min-height: 200px;
+    object-fit: cover;
+    border-radius: 20px 0 0 0;
+    float: left;
+    
+}
+.sect1 img:hover {
+    
+    margin: 0 20px 0 0;
+}
+.ftext {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.0rem;
+    font-stretch: condensed;
+    color: rgb(8, 7, 7);
+    text-align: center;
+    margin: 10px 30px;
+    background-color: rgb(207, 219, 219);
+    padding: 5px 0;
+    
+}
+.ftext a {
+    text-decoration: none;
+    font-size: smaller;
+}
+.box p {
+    color: white;
+    text-align: center;
+}
+footer i {
+    float: right;
+    padding-right: 10px;
+    font-size: smaller;
+}
+.note {
+    display: block;
+    margin: 30px;
+    padding: 40px;
+    background-color: rgb(207, 219, 219);
+}
+
+/*here contain style of services */
+.servicewrap {
+    width: auto;
+    height: auto;
+    margin: 8% 0 0 0;
+}
+.services {
+    margin: 20px 0;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   
+}
+.show {
+    width: 150px;
+    height: 250px;
+    background-color: rgb(174, 179, 182);
+    align-items: center;
+    border-radius: 75px 75px 0 0 ;
+    margin: auto;
+    box-shadow: 0 2px 5px rgb(167, 145, 145);
+}
+.show img {
+    width: 150px;
+    height: 150px;
+    max-height: 400px;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 0 2px 5px rgb(167, 145, 145);
+}
+.show p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1.4rem;
+    margin: auto;
+}
+
+.infobox {  
+    width: 100%;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    margin: auto;
+}
+.infobox h1 {
+    text-transform: uppercase;
+    color: rgb(160, 38, 38);
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+#hh {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+#ppp {
+    text-align: center;
+}
+#ppp a {
+    text-decoration: none;
+    background-color: rgb(255, 57, 7);
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.aboutinfo {
+    display: flex;
+   align-content: flex-start;
+   flex-direction: column;
+   width: 100%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+   background-color: rgb(207, 219, 219);
+   box-shadow: 0px 2px 10px black;
+   border-radius: 0 50px 0 0 ;
+   border-left: 0.3rem solid red;
+   border-bottom: 0.6rem solid red;
+
+    
+}
+.aboutinfo a {
+    color: rgb(175, 34, 34);
+    font-size: 2.0rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 5px 5px 5px ;
+}
+
+/* contact us page */
+address {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    text-align: center;
+    
+}
+.call {
+    background-color: rgb(212, 39, 39);
+    font-size: 1.5rem;
+    margin: 1rem 5%;
+    padding: 5px;
+}
+.reach {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(8, 7, 7);
+    font-size: 2rem;
+    margin: 2px 5%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+pre {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.last p {
+    padding-top: 4px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    font-display: ;
+}
+.last img {
+    width: 400px;
+    height: 400px;
+    margin: 10px 0 10px 30px;
+   
+   
+    
+}
+.last {
+    display: block;
+    background-color: aquamarine;
+    margin: o 5%;
+}
+
+
+
